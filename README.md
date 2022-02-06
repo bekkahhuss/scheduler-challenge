@@ -8,12 +8,12 @@ Dynamic to-do list with color-coded blocks denoting which of the work day are pa
 ## Details 
 * page was created to MVP -06FEB2022
 
-*Built using: 
- -HTML, Bootstrap,JQuery. moment JS
-
+* Built using: 
+ -HTML, Bootstrap, JQuery. Moment JS
+ 
 * https://bekkahhuss.github.io/scheduler-challenge/
 
-UNC Bootcamp Challenge 05 Third Party API's
+* UNC Bootcamp Challenge 05 Third Party API's
 
 
 ### Application Screenshot  
