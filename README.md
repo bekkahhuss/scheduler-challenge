@@ -17,5 +17,5 @@ UNC Bootcamp Challenge 05 Third Party API's
 
 
 ### Application Screenshot  
-![Image]()
+![Image](https://github.com/bekkahhuss/scheduler-challenge/blob/main/assets/images/Scheduler%20Screenshot%20.png)
 
