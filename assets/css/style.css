@@ -4,6 +4,12 @@ body {
   line-height: 1;
 }
 
+h4{
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
 textarea{
   background: transparent;
   border: none;
