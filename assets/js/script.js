@@ -14,6 +14,8 @@ displayTime.text(time);
 
 var saveBtn = $(".saveBtn");
 
+
+
 // var hour = moment().format("H");
 // console.log(hour);
 
@@ -22,7 +24,7 @@ var saveBtn = $(".saveBtn");
 
     
 $("textarea").each(function() {
-    var reloadTask = localStorage.getItem($(this).siblings("textarea").val());
+    var reloadTask = localStorage.getItem($(this).siblings("h4").attr("id"), $(this).siblings("textarea").val());
     console.log(reloadTask);
     $(this).text(reloadTask);
 })
