@@ -6,7 +6,7 @@ var timeLabels = ["9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:0
 $("h4").each(function(index) {
     $(this).text(timeLabels[index]);
 })
-console.log(("h4").each);
+// console.log(("h4").each);
 
 var displayTime = $("#currentDay");
 displayTime.text(time);
@@ -14,12 +14,23 @@ displayTime.text(time);
 
 var saveBtn = $(".saveBtn");
 
-var hour = moment().format("H");
-console.log(hour);
+// var hour = moment().format("H");
+// console.log(hour);
 
+
+
+
+    
+$("textarea").each(function() {
+    var reloadTask = localStorage.getItem($(this).siblings("textarea").val());
+    console.log(reloadTask);
+    $(this).text(reloadTask);
+})
 
 $("textarea").each(function(index) {
     //add 9 hours to the difference between index number and hour
+    // $(this).text("");
+
     if(index + 9 < moment().hours()) {
         $(this).addClass("past")
     }
@@ -29,6 +40,8 @@ $("textarea").each(function(index) {
     else {
         $(this).addClass("future")
     }
+    
+   
 })
 
 function saveTask (event) {
@@ -38,10 +51,3 @@ function saveTask (event) {
 
 
 saveBtn.on("click", saveTask)
-
-// function checkTime () {
-    // for(i=0; i=9; i++) {
-    //     if 
-    // }
-
-// }
